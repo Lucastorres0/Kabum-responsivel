@@ -1,0 +1,266 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Poppins, sans-serif !important;
+}
+
+body {
+    background-color: #010d19;
+    /* background-color: #0071e3; */
+}
+
+/* --- HEADER ------------------------------------------------------------- */
+
+header {
+    /* background-color: #0060bf; */
+    background-color: #0060B1;
+}
+
+.headerclass {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    height: 13vh;
+}
+
+.trestraco-header img {
+    height: 35px;
+}
+
+.kabumimg-header img {
+    height: 200px;
+    margin-right: 2vw;
+}
+
+.inputsearch-header input {
+    padding: 10px;
+    width: 30vw;
+    border-radius: 5px;
+    border: none;
+}
+
+.img-perfil {
+    margin-left: 2vw;
+}
+
+.img-perfil img {
+    height: 40px;
+    border-radius: 100%;
+    border: 3px #347BBE solid;
+    padding: 2px;
+}
+
+.facalogin-header {
+    margin-left: 0.5vw;
+    color: #fff;
+    text-align: start;
+}
+
+.facalogin-header a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.facalogin-header a:hover {
+    text-decoration: underline;
+}
+
+.facalogin-header span {
+    color: #fff;
+}
+
+.flex1-headerend {
+    display: flex;
+    margin-left: 5vw;
+    gap: 3em;
+}
+
+/* --- NAVBAR ------------------------------------------------------------- */
+
+.navbar-container {
+    width: 100%;
+    position: relative;
+    z-index: 999;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(255, 101, 0);
+}
+
+.navbar {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    height: 2rem;
+    gap: 1em;
+}
+
+.navbar-config {
+    width: 11.5rem;
+    height: 100%;
+    background-color: rgb(227, 82, 20);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+    padding: 0px 1rem;
+    cursor: pointer;
+}
+
+.navbar-config span {
+    font-size: 0.875rem;
+    line-height: 1.125rem;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+}
+
+.navbar-config svg {
+    transition: all 0.4s ease 0s;
+    transform: rotate(180deg);
+}
+
+.navbar-traco {
+    width: 0.0625rem;
+    height: 1.75rem;
+    background-color: rgb(255, 139, 31);
+}
+
+.ahref-navbar {
+    display: flex;
+    flex: 1 1 auto;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.75rem;
+    line-height: 1.125rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 0.875rem;
+    line-height: 1.125rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+/* --- BANNER DO CONTEÚDO ------------------------------------------------- */
+
+.bannerimg-content {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    /* padding-left: 9.5vw;
+    padding-right: 9.5vw; */
+}
+
+.barralaranja-content {
+    background-color: rgb(230, 123, 23);
+    margin-top: -0.2vw;
+    height: 50px;
+    font-size: 13px;
+    color: #fff;
+    text-align: start;
+}
+
+.barralaranja-content h1 {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+/* --- CONTEÚDO ----------------------------------------------------------- */
+
+.container-content {
+    padding-left: 9.5vw;
+    padding-right: 9.5vw;
+}
+
+.setembrotech-content {
+    display: flex;
+    background-color: #fff;
+    gap: 1em;
+    /* grid-column: span 4 / auto; */
+}
+
+.setembrotech-content img {
+    height: 150px;
+    /* margin-left: 5vw; ------------------------------------*/
+    margin-bottom: 1vw;
+}
+
+.setembrotech-content h1 {
+    color: #FF6500;
+}
+
+.pcgamercertox,
+.smartv43pol,
+.headsetsemfio,
+.processadorintel,
+.monitorgamer {
+    width: 20vw;
+}
+
+.setembrotech-content button {
+    background-color: rgb(230, 123, 23);
+    border-radius: 0.25rem;
+    border: none;
+}
+
+.setembrotech-content button:hover {
+    background-color: rgb(182, 93, 10);
+}
+
+.buttoncomprar-content {
+    color: #fff;
+    font-size: 0.75rem;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 12%;
+    cursor: pointer;
+    background: rgb(255, 101, 0);
+    gap: 1em;
+}
+
+p {
+    margin-top: 2vh;
+    text-decoration: line-through;
+    color: #7F858D;
+}
+
+.buttoncomprar-content > svg > path {
+    fill: #fff;
+}
+
+.pcgamercertox button {
+    width: 100%;
+    margin-top: 3vw;
+}
+.smartv43pol button {
+    width: 100%;
+    margin-top: 3vw;
+}
+.headsetsemfio button {
+    width: 100%;
+    margin-top: 3vw;
+}
+.processadorintel button {
+    width: 100%;
+    margin-top: 3vw;
+}
+.monitorgamer button {
+    width: 100%;
+    margin-top: 3vw;
+}
+
+.duasimgposbutton {
+    display: flex;
+    padding-right: 9.5vw;
+    gap: 1em;
+    margin-top: 2.8vh;
+}
